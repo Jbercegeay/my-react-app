@@ -1,17 +1,47 @@
-# React + Vite
+# React Vite Sandbox
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Small React and Vite starter project used for learning, local experiments, and quick component testing.
 
-Currently, two official plugins are available:
+## What It Shows
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React application setup with Vite.
+- Fast local development with hot module replacement.
+- ESLint configuration for a modern React project.
+- A minimal component structure that can be used as a base for experiments.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite
+- JavaScript
+- ESLint
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# my-react-app
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## Notes
+
+This is intentionally a lightweight sandbox rather than a finished product. For portfolio review, the more complete application repositories show production workflow, authentication, persistence, integrations, and deployment patterns.
